@@ -1,5 +1,8 @@
 # easyFlow
-easyFlow : An easy to do unsupervised analysis for mass and flow cytometry data
+easyFlow : An easy to do unsupervised analysis for mass and flow cytometry data.
+From preprocessing to statistics !
 
 beta-test :
-easyFlow is available for collaboration only today. Please contact us at : patrice.vallin@inserm.fr
+easyFlow is only available for collaborations with academics today. 
+
+Please contact me at : patrice.vallin@inserm.fr
