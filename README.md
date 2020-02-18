@@ -7,7 +7,7 @@ easyFlow is only available for collaborations with academics.
 
 Please contact me at : patrice.(TO_REMOVE)vallin@inserm.(TO_REMOVE)fr
 
-## How To
+## How To Easyflow
 
 ### Installation 
 
