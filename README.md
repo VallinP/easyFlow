@@ -312,6 +312,7 @@ simply close your current terminal, open a new terminal, and try verifying again
 To install a specific version of node:
     
     nvm install 10.15.3 
-
-
-
+    
+________________________________________________________________________________________________________
+source : https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/#user-libraries
+________________________________________________________________________________________________________
