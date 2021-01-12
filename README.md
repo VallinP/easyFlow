@@ -32,6 +32,7 @@ To create a VM running on Ubuntu, please follow these steps :
 
 10/Restart the VM
 
+________________________________________________________________________________________________
 
 ### Java installation
 
@@ -71,6 +72,7 @@ This will return the path you just set.
 
 3/ Restart the VM
 
+________________________________________________________________________________________________
 
 ### Linux libraries installation
 
@@ -102,6 +104,7 @@ This will return the path you just set.
     
     sudo apt-get upgrade
 
+________________________________________________________________________________________________
 
 ### R software and R packages installation
 
@@ -216,11 +219,14 @@ Quit R software and start a terminal
     cd ./Documents/Scripts/RchyOptimyx/
     sudo su -c "R -e \"source('./install_RchyOptimyx.R')\""
 
+________________________________________________________________________________________________
 
 ### Install Nginx
 
     sudo apt-get update
     sudo apt-get -y install nginx
+
+________________________________________________________________________________________________
 
 ### Install RStudio 
 
@@ -259,6 +265,8 @@ http://123.456.1.2:8787 and you should be greeted with an RStudio login page. (I
 Verify Rstudio installation
 
     sudo rstudio-server verify-installation
+    
+________________________________________________________________________________________________
 
 ### Install Shiny Server
 
@@ -276,6 +284,8 @@ Just like when we installed RStudio, again we need to get the URL of the latest 
     sudo gdebi shiny-server-1.5.6.875-amd64.deb
 
 Shiny Server is now installed and running. Assuming there were no problems, if you go to http://123.456.1.2:3838/ you should see Shiny Server’s default homepage, which includes some instructions and two Shiny apps. If you see an error on the bottom Shiny app, it’s probably because you don’t have the rmarkdown R package installed (the instructions on the default Shiny Server page mention this). After installing rmarkdown in R, the bottom Shiny app should work as well. Don’t forget to install rmarkdown so that it will be available to all users as described above. I suggest you read through the instructions page at http://123.456.1.2:3838/.
+
+________________________________________________________________________________________________
 
 ### Install nodejs
 
@@ -316,3 +326,8 @@ To install a specific version of node:
 ________________________________________________________________________________________________________
 source : https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/#user-libraries
 ________________________________________________________________________________________________________
+
+
+
+
+
