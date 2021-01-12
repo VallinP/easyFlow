@@ -4,21 +4,19 @@ From fcs data to statistics !
 
 ## How To easyflow
 
-### Installation 
-
-### Creation of an Virtual machine 
+### Creation of a Virtual Machine (VM)
 
 The complete easyFlow pipeline was tested only on Linux Ubuntu operating system (16.04 LTS 64bit). 
 
-To create a virtual machine running on Ubuntu, please follow these steps :
+To create a VM running on Ubuntu, please follow these steps :
 
-1/ Download and install a virtual machine creator (ie VMware >16, or Virtualbox)
+1/ Download and install a VM creator (ie VMware >16, or Virtualbox)
 
 2/ Download Ubuntu 16.04 LTS 64bit at the offical website (https://releases.ubuntu.com/16.04/).
 
 3/ Create a new virtual machine with at least 16Gb of allocated RAM, 4 cores CPU, 150Go of allocated hard drive disk space.
 
-4/ Start the VM (virtual machine)
+4/ Start the VM
 
 5/ Create an admin account
 
