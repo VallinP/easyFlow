@@ -322,7 +322,51 @@ simply close your current terminal, open a new terminal, and try verifying again
 To install a specific version of node:
     
     nvm install 10.15.3 
+
+________________________________________________________________________________________________________
     
+### Install Fit-SNE
+
+#### 1- Install FFTW3
+To install FFTW3, download the package from the FFTW3 download page and decompress it: 
+
+    mkdir ~/software
+    cd ~/software
+    wget http://www.fftw.org/fftw-3.3.8.tar.gz 
+    #ftp://ftp.fftw.org/pub/fftw/fftw-3.3.8.tar.gz
+    tar -zxvf fftw-3.3.8.tar.gz
+    cd fftw-3.3.8
+
+Build and Install  FFTW3
+The configure/make/install procedure works well for installation in wcr.stanford.edu. We have the option of building and using static or shared libraries. If you are going to use shared libraries read last section. 
+
+Serial version only 
+Then configure, make and install: 
+
+    ./configure --prefix=$HOME/usr --enable-shared=yes
+    make --jobs=8
+    make install
+
+#### 2-Fit-SNE
+
+    cd ~/software
+
+install the git command
+
+    sudo apt-get install git
+
+clone this repository in the current directory  
+    
+    git clone https://github.com/KlugerLab/Fit-SNE.git
+    cd Fit-SNE
+
+build from source
+    
+    g++ -std=c++11 -O3  src/sptree.cpp src/tsne.cpp src/nbodyfft.cpp  -o bin/fast_tsne -pthread -lfftw3 -lm
+
+________________________________________________________________________________________________________
+
+The VM is created ! 
 ________________________________________________________________________________________________________
 source : https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/#user-libraries
 ________________________________________________________________________________________________________
