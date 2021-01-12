@@ -25,12 +25,14 @@ Before to start, you have to perform a quick analysis of your data to :
 - Select events of interrest (ie, live cells, CD45+ ....) 
 - Save the workspace in the same folder of your fcs.
 
+
 Now, you are ready to start an easyFlow analysis.
+
 
 1- Initialization
 
-library(easyflow)
-easyFlow_initialization()
+  library(easyflow)
+  easyFlow_initialization()
 
 
 2- Setup parameters
