@@ -1,0 +1,30 @@
+Package: easyFlow
+Title: easyFlow : An easy to do unsupervised analysis of mass and flow cytometry data
+Version: 0.1
+Author: P. Vallin
+Maintainer: P.Vallin <patrice.vallin@inserm.fr>
+Description: What the package does.
+Depends: R (>= 3.4.4)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports: 
+    magrittr,
+    flowCore,
+    ncdfFlow,
+    tcltk,
+    ConsensusClusterPlus, 
+    FNN, 
+    MetaCyto, 
+    NbClust, 
+    Rtsne,
+    fastcluster,
+    kohonen, 
+    matrixStats, 
+    methods, 
+    robustbase
+RoxygenNote: 6.1.1

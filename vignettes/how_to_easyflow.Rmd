@@ -1,0 +1,32 @@
+---
+title: "easyFlow"
+author: "Vallin P."
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{how_to_easyflow.Rmd}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Load easyFlow
+```{r}
+library("easyFlow")
+```
+
+## Initialize a new project
+```{r}
+easyFlow:::easyFlow.initialize()
+```
+## Launch FlowSOM clustering 
+```{r}
+easyFlow:::easyFlow.analysis()
+```
+
