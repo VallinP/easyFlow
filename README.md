@@ -347,7 +347,7 @@ Then configure, make and install:
     make --jobs=8
     make install
 
-#### 2-Fit-SNE
+#### 2- Install FIt-SNE
 
     cd ~/software
 
@@ -355,7 +355,7 @@ install the git command
 
     sudo apt-get install git
 
-clone this repository in the current directory  
+clone Fit-SNE repository in the current directory  
     
     git clone https://github.com/KlugerLab/Fit-SNE.git
     cd Fit-SNE
@@ -367,8 +367,12 @@ build from source
 ________________________________________________________________________________________________________
 
 The VM is created ! 
-________________________________________________________________________________________________________
-source : https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/#user-libraries
+
+source : 
+https://www.digitalocean.com/community/tutorials/
+https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/#user-libraries
+http://micro.stanford.edu/wiki/Install_FFTW3
+
 ________________________________________________________________________________________________________
 
 
