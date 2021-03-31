@@ -32,6 +32,7 @@ Now, you are ready to start an easyFlow analysis.
 1- Initialization
 
   library(easyflow)
+
   easyFlow_initialization()
 
 
